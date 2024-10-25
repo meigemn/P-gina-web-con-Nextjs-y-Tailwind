@@ -1,8 +1,14 @@
+import Nav from "@/components/nav";
+import Titulo from "@/components/titulo";
 
 export const metadata = {
-  title: "Información general: convalidaciones, exenciones y títulos",
+  title: "1.1Convalidaciones en FP",
 };export default function Home() {
   return (
-    <div>Pagina principal</div>
+    <div>
+      
+      <Titulo>{metadata.title}</Titulo>{/**Importamos el componente Titulo */}
+      <Nav posicion={2} />
+    </div>
   );
 }

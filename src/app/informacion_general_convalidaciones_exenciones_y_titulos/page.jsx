@@ -6,7 +6,8 @@ export const metadata = {
   return (
     <div>
       <div>Pagina principal</div>
-      <Nav />
+      <Titulo>{metadata.title}</Titulo>{/**Importamos el componente Titulo */}
+      <Nav posicion={0} />
     </div>
   );
 }

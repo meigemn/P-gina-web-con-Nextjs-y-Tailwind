@@ -1,12 +1,25 @@
 import Link from "next/link";
-import MenuPrincipal from "./menu-principal";
+import { menu, slug } from "@/lib/utils";
 
+/**
+ * 
+ * 
+ */
 function Nav({ posicion}) {
     return (
         <div className="p-4 text-right ">
-            {/**Los links son elementos inline */}
-            <Link href={slug(MenuPrincipal[posicion-1])} className="text-2xl text-blue-500 mr-1 bg-blue-200 rounded-md p-4">Anterior</Link>
-            <Link href={slug(MenuPrincipal[posicion+1])} className="text-2xl text-blue-500 mr-1 bg-blue-200 rounded-md p-4">Siguiente</Link>
+            { posicion > 0 &&
+                <Link href={slug(menu[posicion-1])} >
+                    <button className="bg-blue-100 p-1 rounded-l-full font-bold hover:bg-blue-200 transition duration-200 ml-0.5 text-blue-900"> {'<<'}Anterior </button>
+                </Link>
+            }
+
+            { posicion < menu.length-1 &&
+                <Link href={slug(menu[posicion+1])} >
+                    <button className="bg-blue-100 p-1 rounded-r-full font-bold hover:bg-blue-200 transition duration-200 ml-0.5 text-blue-900">Siguiente {'>>'} </button>
+                </Link>
+            }
+            
         </div>
     );
 }
