@@ -1,6 +1,6 @@
 
 export const metadata = {
-  title: "Información general: convalidaciones, exenciones y títulos",
+  title: "1.9 Que efectos tendría la convalidación en mi expediente",
 };export default function Home() {
   return (
     <div>Pagina principal</div>

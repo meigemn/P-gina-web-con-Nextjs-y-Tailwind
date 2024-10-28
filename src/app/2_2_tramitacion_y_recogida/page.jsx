@@ -1,6 +1,6 @@
 
 export const metadata = {
-  title: "Información general: convalidaciones, exenciones y títulos",
+  title: "2.2 Tramitación y recogida",
 };export default function Home() {
   return (
     <div>Pagina principal</div>

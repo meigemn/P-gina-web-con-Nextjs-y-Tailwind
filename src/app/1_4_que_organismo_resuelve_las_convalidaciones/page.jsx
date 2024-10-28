@@ -1,6 +1,6 @@
 
 export const metadata = {
-  title: "Información general: convalidaciones, exenciones y títulos",
+  title: "1.4 Qué organismo resuelve las convalidaciones",
 };export default function Home() {
   return (
     <div>Pagina principal</div>

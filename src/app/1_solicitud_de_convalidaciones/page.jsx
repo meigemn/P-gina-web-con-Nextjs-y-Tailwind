@@ -1,7 +1,7 @@
 import Nav from "@/components/nav";
 import Titulo from "@/components/titulo";
 export const metadata = {
-  title: "Información general: convalidaciones, exenciones y títulos",
+  title: "1. Solicitud de convalidaciones",
 };export default function Home() {
   return (
     <div>

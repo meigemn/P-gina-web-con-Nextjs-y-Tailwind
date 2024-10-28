@@ -1,6 +1,6 @@
 import Nav from "@/components/nav";
 export const metadata = {
-  title: "Información general: convalidaciones, exenciones y títulos",
+  title: "Historial de versiones",
 };export default function Home() {
   return (
     <div>
