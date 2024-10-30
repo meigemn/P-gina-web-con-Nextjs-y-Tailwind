@@ -6,13 +6,11 @@ export const metadata = {
 };export default function Home() {
   return (
     <div>
-      return (
+
     <div>
-      <div>Pagina principal</div>
       <Titulo>{metadata.title}</Titulo>{/**Importamos el componente Titulo */}
-      <Nav posicion={4} />
+      <Nav posicion={7} />
     </div>
-  );
       </div>
   );
 }

@@ -2,7 +2,7 @@ import Nav from "@/components/nav";
 import Titulo from "@/components/titulo";
 
 export const metadata = {
-  title: "1.1Convalidaciones en FP",
+  title: "1.1 Convalidaciones en FP",
 };export default function Home() {
   return (
     <div>
