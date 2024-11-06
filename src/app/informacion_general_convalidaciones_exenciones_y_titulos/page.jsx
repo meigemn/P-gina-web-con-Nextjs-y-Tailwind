@@ -5,8 +5,10 @@ export const metadata = {
 };export default function Home() {
   return (
     <div>
-      <div>Pagina principal</div>
-      <Titulo>{metadata.title}</Titulo>{/**Importamos el componente Titulo */}
+      <header>
+        <Titulo>{metadata.title}</Titulo>{/**Importamos el componente Titulo */}
+      </header>
+
       <Nav posicion={0} />
     </div>
   );
