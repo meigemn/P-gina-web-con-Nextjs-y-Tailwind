@@ -27,22 +27,22 @@ export default function Home() {
               A continuación, se muestra información tutorial que esperamos que te sea de utilidad.
             </p>
           </div>
-          <div className="mx-auto flex justify-center w-[200px] mt-8 w-[1000px] h-40">
-            <Image src="/tutor-and-student.png" alt="imagen balanza" width="900" height="70" />
+          <div className="mx-auto flex justify-center mt-8 w-[700px] h-40">
+            <Image src="/tutor-and-student.png" alt="imagen balanza" width="700" height="70" />
           </div>
         </div>
         <div className="flex flex-col mt-8 ">
           <table>
-            <tr>
-              <th>Elaborado por:</th>
+            <tr className="" >
+              <th className="bg-blue-200 w-[150px]">Elaborado por:</th>
               <td>Dirección General de Formación Profesional</td>
             </tr>
-            <tr>
-              <th>Versión:</th>
+            <tr className="px-4 py-2">
+              <th className="bg-blue-200 px-4 py-2 ">Versión:</th>
               <td>5</td>
             </tr>
-            <tr >
-              <th className="bg-blue-200">Fecha de publicación:</th>
+            <tr className="px-4 py-2">
+              <th className="bg-blue-200 ">Fecha de publicación:</th>
               <td>3/03/2022</td>
             </tr>
           </table>
