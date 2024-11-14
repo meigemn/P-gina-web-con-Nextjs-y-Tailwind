@@ -64,8 +64,9 @@ function MenuPrincipal() {
                         </summary>
                         <Link className={`${classLink} ml-2`} href={slug(menu[22])}>{menu[22]}</Link>
                         <Link className={`${classLink} ml-2`} href={slug(menu[23])}>{menu[23]}</Link>
-                        <Link className={`${classLink} ml-2`} href={slug(menu[24])}>{menu[24]}</Link>
                     </details>
+                        <Link className={`${classLink} ml-2`} href={slug(menu[24])}>{menu[24]}</Link>
+
                 </aside>
             }
         </>

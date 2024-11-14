@@ -85,8 +85,8 @@ export const metadata = {
           </div>
         </div>
         {/* imagen */}
-        <div className=" flex m-4  justify-center w-1/2">
-          <Image layout='responsive'src='/documento.png' alt="documento" width="50" height="50"></Image>
+        <div className=" mt-4 flex justify-center ml-24  w-1/2">
+          <Image layout='responsive'src='/documento.png' alt="documento" width="50" height="50" ></Image>
         </div>
       </div>
       <Nav posicion={15} />
