@@ -39,81 +39,61 @@ export const metadata = {
         </div>
 
         <div className="flex justify-center mt-4">{/* tabla */}
-        <table className=" table-auto border-collapse ">
-        <thead>
-          <tr className="bg-gray-200 text-left">
-            <th className="px-4 py-2 border-b bg-blue-200">Módulo a Convalidar</th>
-            <th className="px-4 py-2 border-b bg-blue-200">Formación a Aportar</th>
-          </tr>
-        </thead>
-        <tbody>
-        {/* primer fol */}
-            <tr className="border-b ">
-              <td className="px-4 py-2 bg-blue-200 w-40" > <b>FOL GM (LOGSE Ley Orgánica 1/1990, de 3 de octubre)</b></td>
-              <td className="px-4 py-2">FOL GM LOGSE</td>
+        <table className="border-separate">
+            <tr className="hover:bg-blue-200 transition duration-100">
+              <td className="bg-blue-200 p-1 font-bold border-blue-200 border-[1px] text-center">Módulo a convalidar</td>
+              <td className="bg-blue-200 p-1 font-bold border-blue-200 border-[1px] text-center">Formación a aportar</td>
             </tr>
-            <tr className="border-b ">
-              <td className="px-4 py-2 bg-blue-200"></td>
-              <td className="px-4 py-2">FOL GS LOGSE</td>
+            <tr className="hover:bg-blue-200 transition duration-100">
+              <td className="bg-blue-200 p-1 font-bold border-blue-200 border-[1px] text-center" rowSpan="4">FOL GM (LOGSE Ley Orgánica 1/1990, de 3 de octubre)</td>
+              <td className="border-gray-200 border-[1px] p-2">FOL GM LOGSE</td>
             </tr>
-            <tr className="border-b ">
-              <td className="px-4 py-2 bg-blue-200"></td>
-              <td className="px-4 py-2">FOL GM LOE</td>
+            <tr className="hover:bg-blue-200 transition duration-100">
+              <td className="border-gray-200 border-[1px] p-2">FOL GS LOGSE</td>
             </tr>
-            <tr className="border-b ">
-              <td className="px-4 py-2 bg-blue-200"></td>
-              <td className="px-4 py-2">FOL GS LOE</td>
+            <tr className="hover:bg-blue-200 transition duration-100">
+              <td className="border-gray-200 border-[1px] p-2">FOL GM LOE</td>
             </tr>
-         {/* segundo Fol */}
-            <tr className="border-b ">
-              <td className="px-4 py-2 bg-blue-200"> <b>FOL GS (LOGSE Ley Orgánica 1/1990, de 3 de octubre)</b></td>
-              <td className="px-4 py-2">FOL GS LOGSE</td>
+            <tr className="hover:bg-blue-200 transition duration-100">
+              <td className="border-gray-200 border-[1px] p-2">FOL GS LOE</td>
             </tr>
-            {/* tercer fol */}
-            <tr className="border-b ">
-              <td className="px-4 py-2 bg-blue-200"><b> FOL GM (LOE Ley Orgánica 2/2006, de 3 de mayo)</b></td>
-              <td className="px-4 py-2">FOL GM LOE</td>
+            <tr className="hover:bg-blue-200 transition duration-100">
+              <td className="bg-blue-200 p-1 font-bold border-blue-200 border-[1px] text-center" rowSpan="1">FOL GS (LOGSE Ley Orgánica 1/1990, de 3 de octubre)</td>
+              <td className="border-gray-200 border-[1px] p-2">FOL GS LOGSE</td>
             </tr>
-            <tr className="border-b ">
-              <td className="px-4 py-2 bg-blue-200"> </td>
-              <td className="px-4 py-2">FOL GS LOE</td>
+            <tr className="hover:bg-blue-200 transition duration-100">
+              <td className="bg-blue-200 p-1 font-bold border-blue-200 border-[1px] text-center" rowSpan="5">FOL GM (LOE Ley Orgánica 2/2006, de 3 de mayo)</td>
+              <td className="border-gray-200 border-[1px] p-2">FOL GM LOE</td>
             </tr>
-            <tr className="border-b ">
-              <td className="px-4 py-2 bg-blue-200"> </td>
-              <td className="px-4 py-2">FOL GM LOGSE + Certificado nivel básico actividad preventiva</td>
+            <tr className="hover:bg-blue-200 transition duration-100">
+              <td className="border-gray-200 border-[1px] p-2">FOL GS LOE</td>
             </tr>
-            <tr className="border-b ">
-              <td className="px-4 py-2 bg-blue-200"> </td>
-              <td className="px-4 py-2">FOL GS LOGSE + Certificado nivel básico actividad preventiva</td>
+            <tr className="hover:bg-blue-200 transition duration-100">
+              <td className="border-gray-200 border-[1px] p-2">FOL GM LOGSE + Certificado nivel básico actividad preventiva</td>
             </tr>
-            <tr className="border-b ">
-              <td className="px-4 py-2 bg-blue-200"> </td>
-              <td className="px-4 py-2">FTítulo Técnico Superior en Prevención de Riesgos Profesionales</td>
+            <tr className="hover:bg-blue-200 transition duration-100">
+              <td className="border-gray-200 border-[1px] p-2">FOL GS LOGSE + Certificado nivel básico actividad preventiva</td>
             </tr>
-            {/* cuarto fol */}
-            <tr className="border-b ">
-              <td className="px-4 py-2 bg-blue-200"> <b>FOL GS (LOE Ley Orgánica 2/2006, de 3 de mayo)</b></td>
-              <td className="px-4 py-2">FOL GM LOE</td>
+            <tr className="hover:bg-blue-200 transition duration-100">
+              <td className="border-gray-200 border-[1px] p-2">Título Técnico Superior en Prevención de Riesgos Profesionales</td>
             </tr>
-            <tr className="border-b ">
-              <td className="px-4 py-2 bg-blue-200"></td>
-              <td className="px-4 py-2">FOL GS LOE</td>
+            <tr className="hover:bg-blue-200 transition duration-100">
+              <td className="bg-blue-200 p-1 font-bold border-blue-200 border-[1px] text-center" rowSpan="5">FOL GS (LOE Ley Orgánica 2/2006, de 3 de mayo)</td>
+              <td className="border-gray-200 border-[1px] p-2">FOL GM LOE</td>
             </tr>
-            <tr className="border-b ">
-              <td className="px-4 py-2 bg-blue-200"></td>
-              <td className="px-4 py-2">FOL GM LOGSE + Certificado nivel básico actividad preventiva</td>
+            <tr className="hover:bg-blue-200 transition duration-100">
+              <td className="border-gray-200 border-[1px] p-2">FOL GS LOE</td>
             </tr>
-            <tr className="border-b ">
-              <td className="px-4 py-2 bg-blue-200"></td>
-              <td className="px-4 py-2">FOL GS LOGSE + Certificado nivel básico actividad preventiva</td>
+            <tr className="hover:bg-blue-200 transition duration-100">
+              <td className="border-gray-200 border-[1px] p-2">FOL GM LOGSE + Certificado nivel básico actividad preventiva</td>
             </tr>
-            <tr className="border-b ">
-              <td className="px-4 py-2 bg-blue-200"></td>
-              <td className="px-4 py-2">Título Técnico Superior en Prevención de Riesgos Profesionales</td>
+            <tr className="hover:bg-blue-200 transition duration-100">
+              <td className="border-gray-200 border-[1px] p-2">FOL GS LOGSE + Certificado nivel básico actividad preventiva</td>
             </tr>
-
-        </tbody>
-      </table>
+            <tr className="hover:bg-blue-200 transition duration-100">
+              <td className="border-gray-200 border-[1px] p-2">Título Técnico Superior en Prevención de Riesgos Profesionales</td>
+            </tr>
+          </table>
         </div>
 
       </div>{/* Fin del div principal */}
